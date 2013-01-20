@@ -46,7 +46,7 @@ $warns = $database->getEntries(MySQL_prefix . 'warns', array('deleted = 0'), arr
 							<tr>
 								<td><?php echo $warn['username']; ?></td>
 								<td><?php echo $warn['username_warner']; ?></td>
-								<td><?php echo $warn['username']; ?></td>
+								<td><?php echo $warn['reason']; ?></td>
 								<td><?php echo date('d.m.Y H:i:s', $warn['date']); ?></td>
 							</tr>
 							<?php
