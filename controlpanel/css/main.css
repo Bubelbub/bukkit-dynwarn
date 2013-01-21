@@ -35,3 +35,8 @@ html, body {
 .container .credit {
 	margin: 20px 0;
 }
+
+.languageMenu {
+	margin-left: 91px;
+	margin-top: -17px;
+}
